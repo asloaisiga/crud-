@@ -177,7 +177,7 @@ namespace CrudConsola
         static void MostrarMenu()
         {
             Console.Clear();
-            Console.WriteLine("============== CRUD DE ESTUDIANTES ==============");
+            Console.WriteLine("============== CRUD DE EMPLEADOS ==============");
             Console.WriteLine("1) Agregar");
             Console.WriteLine("2) Listar");
             Console.WriteLine("3) Buscar por Id");
@@ -311,8 +311,15 @@ namespace CrudConsola
                 var s = Console.ReadLine();
                 if (string.IsNullOrWhiteSpace(s)) return actual;
                 if (float.TryParse(s.Trim(), NumberStyles.Float, CultureInfo.InvariantCulture, out float n))
+                {
+                if (n >= 0)
                 return n;
-                Console.WriteLine("Valor inválido. Ingresa un número.");
+                Console.WriteLine("El sueldo no puede ser negativo. Intente de nuevo.");
+                }
+                else
+                {
+                Console.WriteLine("Valor inválido. Ingresa un número válido.");
+                }
             }
         }
 
