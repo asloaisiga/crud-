@@ -13,11 +13,8 @@ namespace CrudConsola
         public string Nombre { get; set; } = "";
         public string Email { get; set; } = "";
         public int Edad { get; set; }
-
         public float Sueldo { get; set; }
         public string Sexo { get; set; } = "";
-        
-         
     }
 
     // ==================== REPOSITORIO (TXT) ====================
@@ -147,7 +144,7 @@ namespace CrudConsola
     // ==================== APLICACIÓN DE CONSOLA ====================
     class Program
     {
-        static UserRepository repo = new UserRepository();
+        static UserRepository repo = new UserRepository(RutaCompartida("usuarios.txt"));
 
         static void Main()
         {
@@ -308,13 +305,13 @@ namespace CrudConsola
         // Campo obligatorio (no vacío)
         static float LeerSueldoOpcional(string texto, float actual)
         {
-             while (true)
+            while (true)
             {
                 Console.Write(texto);
                 var s = Console.ReadLine();
                 if (string.IsNullOrWhiteSpace(s)) return actual;
                 if (float.TryParse(s.Trim(), NumberStyles.Float, CultureInfo.InvariantCulture, out float n))
-                 return n;
+                return n;
                 Console.WriteLine("Valor inválido. Ingresa un número.");
             }
         }
@@ -417,12 +414,12 @@ namespace CrudConsola
         static void ImprimirTabla(IReadOnlyList<User> items)
         {
             Console.WriteLine();
-            Console.WriteLine($"{Pad("Id", 5)} {Pad("Nombre", 20)} {Pad("Email", 30)} {Pad("Edad", 4)} {Pad("Sueldo", 10)}");
-            Console.WriteLine(new string('-', 5 + 1 + 20 + 1 + 30 + 1 + 4 + 1 + 10));
+            Console.WriteLine($"{Pad("Id", 5)} {Pad("Nombre", 20)} {Pad("Email", 30)} {Pad("Edad", 4)} {Pad("Sexo", 4)} {Pad("Sueldo", 10)}");
+            Console.WriteLine(new string('-', 5 + 1 + 20 + 1 + 30 + 1 + 4 + 1 + 4 + 1 + 10));
 
             foreach (var u in items)
             {
-                Console.WriteLine($"{Pad(u.Id.ToString(), 5)} {Pad(u.Nombre, 20)} {Pad(u.Email, 30)} {Pad(u.Edad.ToString(), 4)} {Pad(u.Sueldo.ToString("F2"), 10)}");
+                Console.WriteLine($"{Pad(u.Id.ToString(), 5)} {Pad(u.Nombre, 20)} {Pad(u.Email, 30)} {Pad(u.Edad.ToString(), 4)} {Pad((u.Sexo ?? "").ToUpperInvariant(), 4)} {Pad(u.Sueldo.ToString("F2", CultureInfo.InvariantCulture), 10)}");
             }
             Console.WriteLine();
         }
@@ -455,6 +452,13 @@ namespace CrudConsola
             if (string.IsNullOrWhiteSpace(s)) return false;
             s = s.Trim().ToUpperInvariant();
             return s == "M" || s == "F";
+        }
+        static string RutaCompartida(string nombreArchivo)
+        {
+            // Se busca la raiz del archivo .txt
+            string raiz = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, "..", "..", "..", ".."));
+            // asegura que existe la carpeta raíz (ya existe); aquí basta con devolver la ruta del archivo
+            return Path.Combine(raiz, nombreArchivo);
         }
     }
 }

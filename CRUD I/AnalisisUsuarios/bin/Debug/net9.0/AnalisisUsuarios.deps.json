@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "AnalisisUsuarios/1.0.0": {
+        "runtime": {
+          "AnalisisUsuarios.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AnalisisUsuarios/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

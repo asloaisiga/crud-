@@ -8,23 +8,23 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\HP\\.nuget\\packages\\": {},
+    "C:\\Users\\adolf\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\OneDrive\\Documents\\II SEMESTRE\\PROGRAMACION ESTRUCTURADA\\CRUD I\\CRUD\\CRUD.csproj",
+      "projectUniqueName": "C:\\Users\\adolf\\Documents\\Programación_Estructurada\\S_9\\crud-\\CRUD I\\CRUD\\CRUD.csproj",
       "projectName": "CRUD",
-      "projectPath": "C:\\Users\\HP\\OneDrive\\Documents\\II SEMESTRE\\PROGRAMACION ESTRUCTURADA\\CRUD I\\CRUD\\CRUD.csproj",
-      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\OneDrive\\Documents\\II SEMESTRE\\PROGRAMACION ESTRUCTURADA\\CRUD I\\CRUD\\obj\\",
+      "projectPath": "C:\\Users\\adolf\\Documents\\Programación_Estructurada\\S_9\\crud-\\CRUD I\\CRUD\\CRUD.csproj",
+      "packagesPath": "C:\\Users\\adolf\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\adolf\\Documents\\Programación_Estructurada\\S_9\\crud-\\CRUD I\\CRUD\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\adolf\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -72,7 +72,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

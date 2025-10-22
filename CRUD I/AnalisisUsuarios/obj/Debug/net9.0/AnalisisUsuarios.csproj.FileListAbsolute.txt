@@ -1,0 +1,15 @@
+C:\Users\adolf\Documents\Programación_Estructurada\S_9\crud-\CRUD I\AnalisisUsuarios\bin\Debug\net9.0\AnalisisUsuarios.exe
+C:\Users\adolf\Documents\Programación_Estructurada\S_9\crud-\CRUD I\AnalisisUsuarios\bin\Debug\net9.0\AnalisisUsuarios.deps.json
+C:\Users\adolf\Documents\Programación_Estructurada\S_9\crud-\CRUD I\AnalisisUsuarios\bin\Debug\net9.0\AnalisisUsuarios.runtimeconfig.json
+C:\Users\adolf\Documents\Programación_Estructurada\S_9\crud-\CRUD I\AnalisisUsuarios\bin\Debug\net9.0\AnalisisUsuarios.dll
+C:\Users\adolf\Documents\Programación_Estructurada\S_9\crud-\CRUD I\AnalisisUsuarios\bin\Debug\net9.0\AnalisisUsuarios.pdb
+C:\Users\adolf\Documents\Programación_Estructurada\S_9\crud-\CRUD I\AnalisisUsuarios\obj\Debug\net9.0\AnalisisUsuarios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adolf\Documents\Programación_Estructurada\S_9\crud-\CRUD I\AnalisisUsuarios\obj\Debug\net9.0\AnalisisUsuarios.AssemblyInfoInputs.cache
+C:\Users\adolf\Documents\Programación_Estructurada\S_9\crud-\CRUD I\AnalisisUsuarios\obj\Debug\net9.0\AnalisisUsuarios.AssemblyInfo.cs
+C:\Users\adolf\Documents\Programación_Estructurada\S_9\crud-\CRUD I\AnalisisUsuarios\obj\Debug\net9.0\AnalisisUsuarios.csproj.CoreCompileInputs.cache
+C:\Users\adolf\Documents\Programación_Estructurada\S_9\crud-\CRUD I\AnalisisUsuarios\obj\Debug\net9.0\AnalisisUsuarios.sourcelink.json
+C:\Users\adolf\Documents\Programación_Estructurada\S_9\crud-\CRUD I\AnalisisUsuarios\obj\Debug\net9.0\AnalisisUsuarios.dll
+C:\Users\adolf\Documents\Programación_Estructurada\S_9\crud-\CRUD I\AnalisisUsuarios\obj\Debug\net9.0\refint\AnalisisUsuarios.dll
+C:\Users\adolf\Documents\Programación_Estructurada\S_9\crud-\CRUD I\AnalisisUsuarios\obj\Debug\net9.0\AnalisisUsuarios.pdb
+C:\Users\adolf\Documents\Programación_Estructurada\S_9\crud-\CRUD I\AnalisisUsuarios\obj\Debug\net9.0\AnalisisUsuarios.genruntimeconfig.cache
+C:\Users\adolf\Documents\Programación_Estructurada\S_9\crud-\CRUD I\AnalisisUsuarios\obj\Debug\net9.0\ref\AnalisisUsuarios.dll
